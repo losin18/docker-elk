@@ -1,4 +1,4 @@
-FROM registry.oppein.com/centos/centos7:latest         
+FROM centos         
 MAINTAINER es-env from losin         
 VOLUME [ "/home/elk" ]      
 RUN  /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime         
